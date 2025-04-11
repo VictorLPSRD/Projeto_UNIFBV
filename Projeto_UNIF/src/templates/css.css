@@ -1,0 +1,10 @@
+.hone{
+    text-align: center;
+    margin: 20px;
+    background-color: aquamarine;
+}
+.hone h1{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="hone">
+        <h1>Victor é foda</h1>
+        <h2>Victor  </h2>
+        <input id="1" type="number" placeholder="Digite algo">
+        <input id="2" type="number" placeholder="Digite algo">
+        <button>entra</button>
+
+    </div>
+    
+</body>
+<script >
+    const input = document.querySelector('input[type="text"]');
+    const input2 = document.querySelector('input[type="number"]');
+    const button = document.querySelector('button');
+
+    button.addEventListener('click', () => {
+        alert(`Você digitou: ${input.value} e ${input2.value}`);
+    });
+</script>
+</html>
