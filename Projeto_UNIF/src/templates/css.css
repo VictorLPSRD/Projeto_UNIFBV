@@ -1,10 +1,83 @@
-.hone{
-    text-align: center;
-    margin: 20px;
-    background-color: aquamarine;
-}
-.hone h1{
-    color: blue;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #111;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    color: #f4d942;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav .menu li {
+    position: relative;
+  }
+  
+  nav .menu a {
+    color: white;
+    text-decoration: underline;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  nav .menu a:hover {
+    color: #f4d942;
+  }
+  
+  /* Submenu */
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+    min-width: 150px;
+    flex-direction: column;
+    box-shadow: 0 0 5px #000;
+  }
+  
+  .submenu li {
+    margin: 5px 0;
+  }
+  
+  .submenu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .submenu a:hover {
+    color: #f4d942;
+  }
+  
+  .dropdown:hover .submenu {
+    display: flex;
+    flex-direction: column;
+  }
+  
