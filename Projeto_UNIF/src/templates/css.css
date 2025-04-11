@@ -6,11 +6,11 @@
   
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #111;
+    background: #d4d4d4;
   }
   
   header {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.902);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +22,7 @@
   }
   
   .logo {
-    color: #f4d942;
+    color: #0f4bfe;
     font-size: 28px;
     font-weight: bold;
   }
@@ -39,16 +39,16 @@
   
   nav .menu a {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 16px;
     transition: color 0.3s;
   }
   
   nav .menu a:hover {
-    color: #f4d942;
+    color: #4842f4;
   }
   
-  /* Submenu */
+
   .submenu {
     display: none;
     position: absolute;
@@ -73,7 +73,7 @@
   }
   
   .submenu a:hover {
-    color: #f4d942;
+    color: #4248f4;
   }
   
   .dropdown:hover .submenu {
